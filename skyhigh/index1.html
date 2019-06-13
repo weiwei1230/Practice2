@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skyhigh Airline</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <div id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top text-uppercase">
+            <a class="navbar-brand" href="#"><i class="fas fa-plane"></i> Skyhigh Airline</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <header class="jumbotron jumbotron-fluid text-center text-white bg-primary">
+        <div class="container">
+            <h1 class="jumbotron-heading font-weight-bold">Welcome to Skyhigh Airline</h1>
+            <p class="lead">
+                Wanna travel? YOU make the decision! Try Skyhigh family
+            </p>
+            <a href="#" class="btn btn-outline-light btn-md" href="#services">View more !</a>
+        </div>
+    </header>
+
+    <div id="flights" class="container-fluid text-dark">
+        <div class="container">
+            <div class="col-md-12 mx-auto">
+                <form>
+                    <h1 class="mb-5 font-weight-bold text-center">Flights</h1>
+                    <div class="row">
+                        <div class="form-check mx-1">
+                            <input class="form-check-input" type="radio">
+                            <label>Return</label>
+                        </div>
+                        <div class="form-check mx-1">
+                            <input class="form-check-input" type="radio">
+                            <label>One way</label>
+                        </div>
+                        <div class="form-check mx-1">
+                            <input class="form-check-input" type="radio">
+                            <label>Multi-city</label>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-sm-6 py-1">
+                            <label>Depature <i class="fas fa-plane-departure"></i></label>
+                            <input type="text" class="form-control" id="depature" placeholder="From">
+                        </div>
+                        <div class="col-sm-6 py-1">
+                            <label>Arrival <i class="fas fa-plane-arrival"></i></label>
+                            <input type="text" class="form-control" id="depature" placeholder="To">
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-sm-4 py-1">
+                            <label>Date from <i class="fas fa-calendar-week"></i></label>
+                            <input type="date" class="form-control" placeholder="Year-Month-Day">
+                        </div>
+                        <div class="col-sm-4 py-1">
+                            <label>Date to <i class="fas fa-calendar-week"></i></label>
+                            <input type="date" class="form-control" placeholder="Year-Month-Day">
+                        </div>
+                        <div class="col-sm-4 py-1">
+                            <label>Cabin <i class="fas fa-crown"></i></label>
+                            <select class="form-control">
+                                <option>First class</option>
+                                <option>Bussiness class</option>
+                                <option>Economy class</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row py-3 mx-auto">
+                        <div class="col-sm-5 py-1">
+                            <label>Adult <i class="fas fa-user"></i></label>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-5 py-1">
+                            <label>Kids <i class="fas fa-child"></i></label>
+                            <select class="form-control">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2 d-flex justify-content-end align-middle">
+                            <button type="submit" class="btn btn-outline-primary">GO</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container-fluid text-dark">
+        <div class="container">
+            <div class="col-12 my-5">
+                <h1 class="mb-5 font-weight-bold">About us</h1>
+                <h3>5-Star Service from the Ground Up</h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum velit, sequi aspernatur reiciendis
+                    beatae amet culpa optio ad nostrum quibusdam consequatur ipsam nulla iste mollitia eum, quis
+                    perspiciatis, quam animi officia consectetur! Libero iure delectus nihil facere temporibus,
+                    laudantium eligendi.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-md" href="#services">More details</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="container-fluid text-white bg-dark">
+        <div class="container py-5">
+            <div class="col-12">
+                <h1 class="mb-5 font-weight-bold">Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center py-3">
+                    <h3>Safty awards</h3>
+                    <div class="py-3">
+                        <i class="fas fa-award fa-5x"></i>
+                    </div>
+                    <p class="lead">provide a safe flight is our priority</p>
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    <h3>Guests service</h3>
+                    <div class="py-3">
+                        <i class="fas fa-users fa-5x"></i>
+                    </div>
+                    <p class="lead">make sure have a pleasant journey</p>
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    <h3>Maintenance check</h3>
+                    <div class="py-3">
+                        <i class="fas fa-tools fa-5x"></i>
+                    </div>
+                    <p class="lead">aircraft Maintenance is important</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="bg-primary text-white">
+        <footer>
+            <div class="row justify-content-center py-3">
+                <div class="col-md-5 text-center py-3">
+                    <h1>Contact information</h1>
+                    <p>Any futher question, please let us know !</p>
+                    <p>> (886)-777-7777 <<br>Skyhigh@email.com</p>
+                    <a href="#" target="_blank" class="px-3 text-white"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" target="_blank" class="px-3 text-white"><i class="fab fa-weixin fa-2x"></i></a>
+                    <a href="#" target="_blank" class="px-3 text-white"><i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+                <hr class="line">
+                <cite class="py-3">&copy; Lin Wei Yu 2019 copyright.</cite>
+            </div>
+        </footer>
+    </div>
+
+    <!-- script source -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

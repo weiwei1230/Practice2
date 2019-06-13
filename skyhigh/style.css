@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #5069;
+}
+
+.line {
+    height: .1rem;
+    width: 100%;
+    background: #fff;
+}
+
+.navbar {
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}   
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+/* here is some problems about li showed active */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #5e5e5e;
+}
+
+.jumbotron {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+
